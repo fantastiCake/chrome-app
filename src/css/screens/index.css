@@ -1,0 +1,33 @@
+
+body {
+    font-family: sans-serif;
+    color: teal;
+    background-color: lightblue;
+    height: 150vh;
+    margin: 0;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+main {
+  cursor: default;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main > div {
+    height: 30vh;
+}
+
+.right-top-block {
+    margin-top: 10px;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

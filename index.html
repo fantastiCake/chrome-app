@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/css/style.css">
+  </head>
+
+  <body>
+      <main>
+        <div class="right-top-block">
+            <div class="weather-area"></div>
+            <div class="clock-area"></div>
+        </div>
+        <div class="greeting-area">
+            <span>Hello</span>
+            <span class="greeting-area__username"></span>
+            <div class="greeting_area__input-area">
+                <input class="greeting-area__text" hidden type="text" placeholder="What is your name?">
+                <input class="greeting-area__button" hidden type="button" value="save">
+            </div>
+        </div>
+        <div class="todo-list-area">
+            <h1>Tasks</h1>
+            <form class="task-form">
+                <input class="task-input-text" type="text" placeholder="What I Want To do"></input>
+                <input class="task-input-button" type="button" value="Add Task"></input>
+            </form>
+
+            <div class="task-list">
+              <ul class="pending-list">
+                <h2>Pending</h2>
+              </ul>
+              <ul class="finished-list">
+                <h2>Finished</h2>
+              </ul>
+            </div>
+        </div>
+        <script src="src/js/background.js"></script>
+        <script src="src/js/todo-list.js"></script>
+        <script src="src/js/clock.js"></script>
+        <script src="src/js/greeting.js"></script>
+        <script src="src/js/weather.js"></script>
+      </main>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+
+/* screens */
+@import "screens/index.css";
+
+/* components */
+@import "component/todo-list.css";
+@import "component/weather.css";
+@import "component/clock.css";
+@import "component/greeting.css";

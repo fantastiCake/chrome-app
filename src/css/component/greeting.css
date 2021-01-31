@@ -1,0 +1,62 @@
+
+.greeting-area {
+    margin-top: 40px;
+    font-size: 100px;
+    color: white;
+    text-shadow: 0 0 30px teal;
+    display: flex;
+    align-items: flex-start;
+}
+
+.greeting-area__username {
+    margin-left: 20px;
+}
+
+.greeting_area__input-area {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.greeting-area__text {
+    border: none;
+    outline: none;
+    border: 2px solid rgba(59, 141, 141, 0.02);
+    background: rgba(59, 141, 141, 0.03);
+    height: 50px;
+    color: white;
+    width: 300px;
+    margin: 0 20px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.greeting-area__text:focus {
+    border: 2px solid rgba(59, 141, 141, 0.1);
+}
+
+.greeting-area__text::placeholder {
+    color: white;
+    text-shadow: 0 0 10px teal;
+    font-size: 30px;
+    text-align: center;
+    opacity: 0.5;
+    transform: translateY(-5px);
+}
+
+.greeting-area__button {
+    color: white;
+    margin-top: 5px;
+    padding: 5px 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    transition: transform 0.3s ease-in-out;
+    text-shadow: 0 0 1px teal;
+}
+
+.greeting-area__button:hover {
+    transform: scale(0.9);
+}
