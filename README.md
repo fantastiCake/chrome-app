@@ -1,2 +1,2 @@
 # chrome-app
- simple chrome new-tab
+ simple chrome tab
